@@ -174,7 +174,8 @@ function FlightLogGrapher(flightLog, graphConfig, canvas, stickCanvas, craftCanv
             accFields:[],
 
             servoFields:[],
-
+            headspeed:-1,
+            
             vbatField:-1,
             numCells:-1,
             baroField:-1,
@@ -244,6 +245,9 @@ function FlightLogGrapher(flightLog, graphConfig, canvas, stickCanvas, craftCanv
                     case "heading":
                         idents.heading = fieldIndex;
                     break;
+                    case "headspeed":
+                        idents.headspeed = fieldIndex;
+                    break;                    
                     default:
                         idents.miscFields.push(fieldIndex);
                 }
