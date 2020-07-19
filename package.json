@@ -24,7 +24,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "html2canvas": "^1.0.0-rc.5",
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "command-exists": "^1.2.8",
